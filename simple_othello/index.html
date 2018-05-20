@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>simple othello</title>
+    <link rel="stylesheet" href="./board.css">
+  </head>
+  <body onload="create_board()">
+
+    <table id="board">
+
+    </table>
+
+
+    <table>
+      <tr>
+        <td class="w">White:</td><td id="wscore">0</td>
+      </tr>
+      <tr>
+        <td class="b">Black:</td><td id="bscore">0</td>
+      </tr>
+      <tr>
+        <td>Remaining:</td><td id="remaining">64</td>
+      </tr>
+      <tr>
+        <td>Next:</td><td class="square b" id="next">●</td>
+      </tr>
+    </table>
+
+    <script src="./simple_othello.js" type="text/javascript"></script>
+  </body>
+</html>
+
+
+
